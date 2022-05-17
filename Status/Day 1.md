@@ -135,6 +135,17 @@ num = int(input())
 print(reduce(fun,range(1, num+1), 1))
 ```
 ---
+-*Using Lambda Function**
+```python
+'''Soltuion by: ManojStoic
+'''
+from functools import reduce
+num = int(input("Enter the number - "))
+a=1
+factorial = reduce(lambda x,a:x*a,range(1,num+1))
+print(factorial)
+```
+---
 
 # Question 3
 
